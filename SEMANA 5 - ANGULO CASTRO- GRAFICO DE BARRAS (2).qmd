@@ -1,0 +1,20 @@
+---
+title: "SEMANA 5 FRAFICO DE BARRAS"
+author: "ANGULO CASTRO NAHOMI"
+format: html
+editor: visual
+---
+
+```{r}
+#SEMANA 5
+
+#GRÁFICO DE BARRAS EN R
+#CREAR DATOS 
+Categorias<-c("Asma","Cáncer","Diabetes","Malaria")
+Valores<-c(30,45,60,20)
+
+#Generar gráfico de barras 
+barplot(Valores,names.arg=Categorias, 
+        col="pink",main="Gráfico de barras", 
+        xlab="Categorias", ylab="Valores",border="yellow")
+```
