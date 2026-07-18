@@ -1,0 +1,35 @@
+---
+title: "SEMANA 4 - INSTALACION DE 5 PAQUETES"
+author: "ANGULO CASTRO NAHOMI"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: inline
+---
+
+## Running Code
+
+```{r}
+install.packages("ggplot2")
+library("ggplot2")
+```
+
+```{r}
+intall.packages("dplyr")
+library("dplyr")
+```
+
+```{r}
+install.packages("tidyr")
+library("tidyr")
+```
+
+```{r}
+install.packages("readr")
+library("readr")
+```
+
+```{r}
+intall.packages("psych")
+library("psych")
+```
