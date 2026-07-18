@@ -1,0 +1,28 @@
+---
+title: "SEMANA 3 - CREACIÓN DE UN VECTOR"
+author: "ANGULO CASTRO NAHOMI"
+format: html
+editor: visual
+---
+
+## Quarto
+
+```{r}
+# Crear un vector con datos de presión arterial
+presion <- c(120, 130, 125, 140, 135)
+
+# Calcular el promedio
+promedio <- mean(presion)
+
+# Calcular la desviación estándar
+desviacion <- sd(presion)
+
+# Mostrar resultados
+promedio
+desviacion
+```
+
+```{r}
+#| echo: false
+2 * 2
+```
