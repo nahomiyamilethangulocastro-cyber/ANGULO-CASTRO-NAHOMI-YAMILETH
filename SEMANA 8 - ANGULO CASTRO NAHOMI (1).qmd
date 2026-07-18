@@ -1,0 +1,46 @@
+---
+title: "SEMANA 8"
+author: "ANGULO CASTRO NAHOMI"
+format: html
+editor: visual
+---
+
+## Quarto
+
+```{r}
+#DATOS
+
+x<-c(4,6,8,10,12)
+
+y<-c(2,3,4,5,7)
+```
+
+```{r}
+#Correlación de pearsson
+
+cor(x,y)
+
+#Obtener coeficientes de la regresión
+#Modelo
+modelo <- lm(y ~ x)
+coef(modelo)
+
+#Cuando recibe una capacitacion de 12 horas de duración
+predict(modelo,data.frame(x=12))
+```
+
+```{r}
+#gráfico
+
+plot(x,y,main = "Numero de pacientes vs Tiempo de respuesta",
+     
+     xlab="Numero de pacientes",
+     
+     ylab="Tiempo de respuesta",
+     
+     pch=19)
+
+
+
+abline(modelo,lwd=2)
+```
