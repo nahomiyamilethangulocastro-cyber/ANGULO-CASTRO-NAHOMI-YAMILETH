@@ -1,0 +1,32 @@
+---
+title: "RECTA DE REGRESIÓN LINEAl - SEMANA 7"
+author: "ANGULO CASTRO"
+format: html
+editor: visual
+---
+
+## Quarto
+
+```{r}
+#DATOS
+
+x<-c(4,6,8,10,12)
+
+y<-c(2,3,4,5,7)
+```
+
+```{r}
+#Correlación de pearsson
+
+cor(x,y)
+```
+
+```{r}
+#Obtener coeficientes de la regresión
+
+#Modelo
+
+modelo <- lm(y ~ x)
+
+coef(modelo)
+```
